@@ -1,0 +1,144 @@
+html {
+    font-family: "Montserrat";
+    background: url("./black-concrete-wall.jpg");
+}
+
+.header {
+    background: black;
+    padding: 14px 0;
+    border-radius: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__name {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.header__info {
+    display: flex;
+    gap: 30px;
+}
+
+.header__child {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.main {
+    padding: 91px 0;
+}
+
+.header__red {
+    font-size: 100px;
+    font-weight: 700;
+    color: red;
+}
+
+.main__text {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.project {
+    padding: 40px 0 60px;
+    /* background: white; */
+}
+
+.project__title {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.project__flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+
+.project__child {
+    padding: 26px 50px 60px;
+    border: 1px solid whites;
+    border-radius: 20px;
+    background: white;
+    color: black;
+}
+
+.black {
+    background: black;
+    color: white;
+}
+
+.project__name {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.work {
+    padding: 50px;
+}
+
+.work__title {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.work__user {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+
+.work__item {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.work__round {
+    width: 150px;
+    height: 150px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.work__text {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.footer {
+    padding: 30px 0 60px;
+}
+
+.footer__text-red {
+    font-size: 35px;
+    font-weight: 700;
+    color: red;
+}
+
+.footer__link {
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    display: block;
+    margin: 25px 0 0 0;
+}
